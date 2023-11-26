@@ -161,7 +161,6 @@ def handle_bullets(yellow_bullets, red_bullets, yellow, red):
         elif bullet.x < 0:
             red_bullets.remove(bullet)
     
-
 def draw_winner(text):
     # Render the font 
     draw_text = WINNER_FONT.render(text, 1, 'White')
